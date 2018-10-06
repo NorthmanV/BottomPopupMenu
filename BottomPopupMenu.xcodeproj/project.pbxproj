@@ -12,6 +12,7 @@
 		871C199E216539070056CA84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 871C199C216539070056CA84 /* Main.storyboard */; };
 		871C19A0216539080056CA84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 871C199F216539080056CA84 /* Assets.xcassets */; };
 		871C19A3216539080056CA84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 871C19A1216539080056CA84 /* LaunchScreen.storyboard */; };
+		871C19AE21694AE40056CA84 /* InstantPanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871C19AD21694AE40056CA84 /* InstantPanGestureRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		871C199F216539080056CA84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		871C19A2216539080056CA84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		871C19A4216539080056CA84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		871C19AD21694AE40056CA84 /* InstantPanGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantPanGestureRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				871C1998216539070056CA84 /* AppDelegate.swift */,
 				871C199A216539070056CA84 /* ViewController.swift */,
+				871C19AD21694AE40056CA84 /* InstantPanGestureRecognizer.swift */,
 				871C199C216539070056CA84 /* Main.storyboard */,
 				871C199F216539080056CA84 /* Assets.xcassets */,
 				871C19A1216539080056CA84 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				871C199B216539070056CA84 /* ViewController.swift in Sources */,
 				871C1999216539070056CA84 /* AppDelegate.swift in Sources */,
+				871C19AE21694AE40056CA84 /* InstantPanGestureRecognizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
